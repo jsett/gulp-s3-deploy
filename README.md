@@ -26,7 +26,7 @@ var s3Credentials = {
 In your gulp task, deploy your files:
 
 ```javascript
-var s3 = require( "gulp-s3" );
+var s3 = require( "gulp-s3-deploy" );
 gulp.src( './public/**' )
     .pipe( s3( s3Credentials ) );
 ```
