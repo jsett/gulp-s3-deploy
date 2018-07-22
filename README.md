@@ -60,6 +60,13 @@ Default: `false`
 
 If set, only files with a gz extension will be uploaded.
 
+#### options.uploadPath 
+
+Type: `string`          
+Default: `""`
+
+If set the files will upload to the specified path.
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
